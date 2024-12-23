@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitTogethers</title>
+    <link rel="icon" href="https://github.githubassets.com/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-links"></ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <input type="text" id="github-username" placeholder="Enter your GitHub username" />
+            <button id="proceed-btn" disabled>Proceed</button>
+        </div>
+        <div id="greeting" class="hidden">
+            <h1 id="welcome-message"></h1>
+            <div class="buttons-container">
+                <a id="call-for-sessions" class="disabled" href="https://gh.io/cfs" target="_blank">Call for Sessions</a>
+                <a id="community-spotlight" class="disabled" href="https://gh.io/spotlight" target="_blank">Community Spotlight</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
